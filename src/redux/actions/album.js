@@ -30,4 +30,3 @@ export const fetchMusics = (id) => async (dispatch) => {
     dispatch(getMusicsError(error.message));
   }
 };
-// https://itunes.apple.com/lookup?id=1434899831&entity=song

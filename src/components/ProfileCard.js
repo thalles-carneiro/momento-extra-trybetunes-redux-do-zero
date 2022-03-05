@@ -8,10 +8,10 @@ class ProfileCard extends Component {
 
     return (
       <section>
-        <img src={ image } alt={ name } />
-        <p>{ name }</p>
-        <p>{ email }</p>
-        <p>{ description }</p>
+        <img src={ image } alt={ `Foto de perfil ${name}` } />
+        <p>Nome: <span>{ name }</span></p>
+        <p>E-mail: <span>{ email }</span></p>
+        <p>Descrição: <span>{ description }</span></p>
         <Link to="/profile/edit">Editar</Link>
       </section>
     );

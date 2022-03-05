@@ -1,11 +1,13 @@
+import Music from './Music';
+import Header from './Header';
 import Loading from './Loading';
 import ProfileCard from './ProfileCard';
-import Header from './Header';
-import Music from './Music';
+import FormProfileEdit from './FormProfileEdit';
 
 export {
+  Music,
+  Header,
   Loading,
   ProfileCard,
-  Header,
-  Music,
+  FormProfileEdit,
 };
